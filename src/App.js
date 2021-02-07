@@ -7,6 +7,7 @@ import {
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Sections/Home';
+import NavBar from './Commons/NavBar';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div>
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
+            <NavBar />
         <Switch>
           {/* <Route path={"/states/:id"} name="State" component={StatesPage} /> */}
           <Route path="/">
