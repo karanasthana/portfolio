@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav'
 class NavBar extends React.Component {
 render() {
       return (
-          <div>
          <Navbar bg="light" expand="lg">
             <Navbar.Brand href="#home">Karan Asthana</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,7 +15,6 @@ render() {
                 </Nav>
             </Navbar.Collapse>
          </Navbar>
-        </div>
       )
    }
 }
