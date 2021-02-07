@@ -7,11 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
 const routs = (
-   < BrowserRouter >
-      <div>
-         <App />
-      </div>
-   </ BrowserRouter >
+   <div>
+      <App />
+   </div>
 );
 ReactDOM.render(<React.StrictMode>{routs}</React.StrictMode>, document.getElementById('root'));
 
