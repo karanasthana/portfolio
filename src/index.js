@@ -5,12 +5,12 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 
-const routs = (
+ReactDOM.render(
    <div>
       <App />
-   </div>
+   </div>,
+   document.getElementById('root')
 );
-ReactDOM.render(routs, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
