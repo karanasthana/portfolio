@@ -15,7 +15,7 @@ class Home extends React.Component {
                </div>
                <div className="col-12 col-md-8">
                   <h1>
-                     Hello, I am Karan
+                     Dummy Image goes here
                   </h1>
                </div>
             </div>
