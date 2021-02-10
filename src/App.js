@@ -7,6 +7,7 @@ import {
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Sections/Home';
+import Blog from './Sections/Blog';
 import NavBar from './Commons/NavBar';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
+          <Route path="/blog" component={Blog} />
         </Switch>
       </div>
     </Router>
