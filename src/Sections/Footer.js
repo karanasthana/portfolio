@@ -3,11 +3,11 @@ import { Button } from '../StyledComponents/Button';
 
 export default class Footer extends React.Component {
     render() {
-        return <div style={{ backgroundColor: '#F4F5F7', height: '50px' }}>
-            <div>
-                <Button>
-                    <a href="https://karanpersonal.s3.ap-south-1.amazonaws.com/Karan+Asthana+Resume+-+Frontend+Developer+-+React+Native+.pdf" download>
-                        Download Resume PDF
+        return <div style={{ backgroundColor: '#F4F5F7' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', padding: '20px' }}>
+                <Button primary>
+                    <a href="https://karanpersonal.s3.ap-south-1.amazonaws.com/Karan+Asthana+Resume+-+Frontend+Developer+-+React+Native+.pdf" target="_blank" rel="noreferrer" download style={{ color: 'white', textDecoration: 'none' }}>
+                        PDF Resume
                     </a>
                 </Button>
             </div>

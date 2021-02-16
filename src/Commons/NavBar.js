@@ -11,9 +11,12 @@ class NavBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="reverse-row-nav" >
                <Nav>
-               <Nav.Link href="#projects">Projects</Nav.Link>
-               <Nav.Link href="#industry">Industry Experience</Nav.Link>
-               <Nav.Link href="#contact">Contact Me</Nav.Link>
+                  <Nav.Link href="#projects">Projects</Nav.Link>
+                  <Nav.Link href="#industry">Industry Experience</Nav.Link>
+                  <Nav.Link href="#contact">Contact Me</Nav.Link>
+                  <Nav.Link href="https://karanpersonal.s3.ap-south-1.amazonaws.com/Karan+Asthana+Resume+-+Frontend+Developer+-+React+Native+.pdf" target="_blank" rel="noreferrer" download>
+                     <button>Download Resume</button>
+                  </Nav.Link>
                </Nav>
             </Navbar.Collapse>
          </Navbar>
