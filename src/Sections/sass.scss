@@ -34,6 +34,13 @@
         justify-content: center;
         padding: 20px;
 
+        &:hover {
+            button {
+                background-color: rebeccapurple;
+                border-color: rebeccapurple;
+            }
+        }
+
         a {
             color: white;
             text-decoration: none;
@@ -58,6 +65,10 @@
                 color: silver;
                 padding: 5px;
                 font-size: 20px;
+
+                &:hover {
+                    color: black;
+                }
             }
         }
     }
