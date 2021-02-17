@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import Background from '../assets/white-bg.jpg';
 import './sass.scss';
+import * as CONSTANTS from './../constants/constants';
 
 export default class FirstFoldAboutKaran extends React.Component {
     render() {
@@ -21,7 +22,7 @@ export default class FirstFoldAboutKaran extends React.Component {
                         </h5>
                      </div>
                      <div className="col-12 col-md-6 img-container">
-                        <Image src="https://travel-photos-react-website.s3.ap-south-1.amazonaws.com/IMG_8447-removebg-preview-removebg-preview.png" fluid />
+                        <Image src={CONSTANTS.KARAN_IMG} fluid />
                      </div>
                   </div>
                </div>

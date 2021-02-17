@@ -15,26 +15,26 @@ export default class Footer extends React.Component {
             </div>
             <div className="footer-icons-row">
                 <div className="copyright-container">
-                    Copyright <i class ="ri-copyright-line" /> {' Karan Asthana'} All rights reserved.
+                    Copyright <i className ="ri-copyright-line" /> {' Karan Asthana'} All rights reserved.
                 </div>
                 <div className="row icons-container">
                     <a href={CONSTANTS.TRAVEL_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-earth-fill"></i>
+                        <i className="ri-earth-fill"></i>
                     </a>
                     <a href={CONSTANTS.LINKEDIN_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-linkedin-fill"></i>
+                        <i className="ri-linkedin-fill"></i>
                     </a>
                     <a href={CONSTANTS.GITHUB_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-github-fill"></i>
+                        <i className="ri-github-fill"></i>
                     </a>
                     <a href={CONSTANTS.INSTAGRAM_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-instagram-fill"></i>
+                        <i className="ri-instagram-fill"></i>
                     </a>
                     <a href={CONSTANTS.FACEBOOK_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-facebook-fill"></i>
+                        <i className="ri-facebook-fill"></i>
                     </a>
                     <a href={CONSTANTS.EMAILTO_LINK} target="_blank" rel="noreferrer">
-                        <i class="ri-mail-fill"></i>
+                        <i className="ri-mail-fill"></i>
                     </a>
                 </div>
             </div>
