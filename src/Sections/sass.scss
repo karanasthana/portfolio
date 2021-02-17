@@ -1,0 +1,75 @@
+.first-fold-section {
+    .about-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        h1, h3, h5 {
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            font-style: italic;
+        }
+
+        .color-orange {
+            color: orange;
+        }
+    }
+
+    .img-container {
+        max-height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.footer-section {
+    background-color: #F4F5F7;
+
+    .pdf-row {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+        &:hover {
+            button {
+                background-color: rebeccapurple;
+                border-color: rebeccapurple;
+            }
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .footer-icons-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .copyright-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .icons-container {
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: silver;
+                padding: 5px;
+                font-size: 20px;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}

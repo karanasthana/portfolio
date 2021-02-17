@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Sections/Home';
+import Home from './Pages/Home';
 import Blog from './Sections/Blog';
 import NavBar from './Commons/NavBar';
 
