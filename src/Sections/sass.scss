@@ -6,6 +6,10 @@
         margin-top: 20px;
         margin-bottom: 20px;
 
+        em {
+            font-size: 1.5rem;
+        }
+
         h1, h3, h5 {
             margin-bottom: 20px;
         }
@@ -71,5 +75,12 @@
                 }
             }
         }
+    }
+}
+
+.projects-section {
+    h2 {
+        text-align: center;
+        color: #333;
     }
 }
