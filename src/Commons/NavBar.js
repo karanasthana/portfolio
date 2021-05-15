@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
 import './NavBar.scss';
 import * as CONSTANTS from '../constants/constants';
+import { Button } from '../StyledComponents/Button';
 
 class NavBar extends React.Component {
    render() {
@@ -16,7 +17,7 @@ class NavBar extends React.Component {
                   <Nav.Link href="#industry">Industry Experience</Nav.Link>
                   <Nav.Link href="#contact">Contact Me</Nav.Link>
                   <Nav.Link href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download>
-                     <button>Download Resume</button>
+                     <Button primary className="download-btn">Download Resume</Button>
                   </Nav.Link>
                </Nav>
             </Navbar.Collapse>

@@ -1,10 +1,11 @@
 .nav-link {
     color: white !important;
+    font-size: 0.8rem;
 }
 
 .navbar-brand {
     color: white !important;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 800;
 }
 
@@ -21,4 +22,12 @@ nav.navbar-style {
 
 nav.navbar-style .navbar-nav {
     color: white;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.download-btn {
+    margin: 0em !important;
 }
