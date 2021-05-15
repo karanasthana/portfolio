@@ -6,6 +6,10 @@
         margin-top: 20px;
         margin-bottom: 20px;
 
+        em {
+            font-size: 1.5rem;
+        }
+
         h1, h3, h5 {
             margin-bottom: 20px;
         }
@@ -72,5 +76,63 @@
                 }
             }
         }
+    }
+}
+
+.work-ex-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects-section {
+    margin-bottom: 50px;
+
+    .one-work-ex {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .company-img-container {
+            padding: 20px;
+
+            .company-img {
+                float: right;
+                height: 80px;
+            }
+        }
+
+        .company-details-container {
+            padding: 20px 50px;
+            float: right;
+            font-size: 0.9rem;
+
+            .company-header {
+                color: #178be7;
+            }
+
+            .company-position {
+                display: flex;
+                color: #5e9516;
+                font-weight: bold;
+            }
+
+            .para {
+                margin-top: 30px;
+
+                .reponsibilities {
+                    padding-left: 0;
+                    list-style: none;
+
+                    .features-list {
+                        padding-left: 20px;
+                        list-style-type: square;
+                    }
+                }
+            }
+        }
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
     }
 }
