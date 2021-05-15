@@ -28,6 +28,14 @@ const WorkEx = props => {
                 location={'Noida, India'}
                 para={<TCSPara />}
             />
+            <SingleWorkEx
+                companyName={'JSS Academy Of Technical Education'}
+                title={'BTech in Information Technology'}
+                duration={'2013 - 2017'}
+                imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
+                location={'Noida, India'}
+                para={<TCSPara />}
+            />
         </>
     );
 };
