@@ -3,6 +3,7 @@ import './sass.scss';
 import SingleWorkEx from './SingleWorkEx';
 import OrgzitPara from './OrgzitPara';
 import TCSPara from './TCSPara';
+import JSSPara from './JSSPara';
 
 const WorkEx = props => {
     return (
@@ -12,6 +13,17 @@ const WorkEx = props => {
                     <h2> ____Journey____ </h2>
                 </div>
             </div>
+            {
+                false &&
+                <SingleWorkEx
+                    companyName={'University Of Florida'}
+                    title={'Masters in Computer Science'}
+                    duration={'Fall 2021 - 2022'}
+                    imgUrl={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/University_of_Florida_logo.svg/1280px-University_of_Florida_logo.svg.png'}
+                    location={'Gainesville, USA'}
+                    para={<JSSPara />}
+                />
+            }
             <SingleWorkEx
                 companyName={'Orgzit'}
                 title={'Frontend Tech Lead'}
@@ -27,6 +39,14 @@ const WorkEx = props => {
                 imgUrl={'https://www.cdn.geeksforgeeks.org/wp-content/uploads/TATA_Consultancy_Services_Logo_blue.svg_.png'}
                 location={'Noida, India'}
                 para={<TCSPara />}
+            />
+            <SingleWorkEx
+                companyName={'JSS Academy Of Technical Education'}
+                title={'BTech in Information Technology'}
+                duration={'2013 - 2017'}
+                imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
+                location={'Noida, India'}
+                para={<JSSPara />}
             />
         </>
     );
