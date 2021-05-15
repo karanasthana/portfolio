@@ -4,18 +4,17 @@ import './sass.scss';
 
 function OrgzitWorkEx(props) {
    return (
-      <div className="projects-section">
+      <div className="projects-section" style={{ marginBottom: '50px' }}>
          <div className="" style={{ padding: '20px' }}>
                <div className="col-12">
                   <h2> ____Journey____ </h2>
                </div>
          </div>
          <div className="row" style={{ marginLeft: '20px', marginRight: '20px' }}>
-               <div className="col-12 col-md-6" style={{ padding: '20px' }}>
+            <div className="col-12 col-md-6" style={{ padding: '20px' }}>
                <Image src={'https://d3a93fg1wt2nf3.cloudfront.net/static/website/images/orgzit_logo.png'} style={{ float: 'right', height: '80px' }} />
-               <Image src={'https://www.cdn.geeksforgeeks.org/wp-content/uploads/TATA_Consultancy_Services_Logo_blue.svg_.png'} style={{ float: 'right', height: '80px' }} />
-               </div>
-               <div className="col-12 col-md-6" style={{ padding: '20px', paddingRight: '30px' }}>
+            </div>
+            <div className="col-12 col-md-6" style={{ padding: '20px 50px', float: 'right', fontSize: '0.9rem' }}>
                <div>
                   <h4 style={{ color: '#178be7' }}>Orgzit.com</h4>
                </div>
@@ -47,7 +46,7 @@ function OrgzitWorkEx(props) {
                      </li>
                   </ul>
                </div>
-               </div>
+            </div>
          </div>
       </div>
    )
