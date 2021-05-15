@@ -1,5 +1,5 @@
 import React from 'react';
-import './sass.scss';
+import '../Sections/sass.scss';
 
 const OrgzitPara = props => {
     return (

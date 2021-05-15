@@ -1,11 +1,11 @@
 import React from 'react';
-import './sass.scss';
+import '../Sections/sass.scss';
 
-const JSSPara = props => {
+const TCSPara = props => {
     return (
         <>
         <div className="para">
-            <p> JSS is affiliated to the DR APJ Abdul Kalam Technical University </p>
+            <p> Tata Consultancy Services (TCS) is one of the biggest multinational company from India, employing more than 4Lakh people across the world. </p>
         </div>
         <div className="para">
             <p> My Professional responsibilities here, were - </p>
@@ -18,4 +18,4 @@ const JSSPara = props => {
     );
 };
 
-export default JSSPara;
+export default TCSPara;
