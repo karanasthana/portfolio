@@ -1,14 +1,14 @@
 import React from 'react';
 import FirstFoldAboutKaran from '../Sections/FirstFoldAboutKaran';
 import Footer from '../Sections/Footer';
-import Projects from '../Sections/Projects';
+import OrgzitWorkEx from '../Sections/OrgzitWorkEx';
 
 class Home extends React.Component {
    render() {
       return (
          <div>
             <FirstFoldAboutKaran />
-            <Projects />
+            <OrgzitWorkEx />
             <Footer />
          </div>
       )
