@@ -4,8 +4,8 @@ import './sass.scss';
 
 function TCSWorkEx(props) {
     return (
-        <div className="projects-section" style={{ marginBottom: '50px' }}>
-            <div className="row" style={{ marginLeft: '20px', marginRight: '20px' }}>
+        <div className="projects-section">
+            <div className="row " style={{ marginLeft: '20px', marginRight: '20px' }}>
                 <div className="col-12 col-md-6" style={{ padding: '20px' }}>
                     <Image src={'https://www.cdn.geeksforgeeks.org/wp-content/uploads/TATA_Consultancy_Services_Logo_blue.svg_.png'} style={{ float: 'right', height: '120px' }} />
                 </div>
