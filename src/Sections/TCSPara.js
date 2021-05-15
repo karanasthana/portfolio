@@ -1,7 +1,7 @@
 import React from 'react';
 import './sass.scss';
 
-function TCSPara(props) {
+const TCSPara = props => {
     return (
         <>
         <div className="para">

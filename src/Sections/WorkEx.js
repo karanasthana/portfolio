@@ -4,7 +4,7 @@ import SingleWorkEx from './SingleWorkEx';
 import OrgzitPara from './OrgzitPara';
 import TCSPara from './TCSPara';
 
-function WorkEx(props) {
+const WorkEx = props => {
     return (
         <>
             <div className="work-ex-header">

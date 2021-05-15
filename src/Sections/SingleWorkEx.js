@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import './sass.scss';
 
-function SingleWorkEx(props) {
+const SingleWorkEx = props => {
    return (
         <div className="projects-section">
             <div className="row one-work-ex">

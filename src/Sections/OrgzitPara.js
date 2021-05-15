@@ -1,7 +1,7 @@
 import React from 'react';
 import './sass.scss';
 
-function OrgzitPara(props) {
+const OrgzitPara = props => {
     return (
         <>
         <div className="para">
