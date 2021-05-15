@@ -19,7 +19,7 @@ const WorkEx = props => {
                     companyName={'University Of Florida'}
                     title={'Masters in Computer Science'}
                     duration={'Fall 2021 - 2022'}
-                    imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
+                    imgUrl={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/University_of_Florida_logo.svg/1280px-University_of_Florida_logo.svg.png'}
                     location={'Gainesville, USA'}
                     para={<JSSPara />}
                 />
