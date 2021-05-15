@@ -24,10 +24,24 @@ nav.navbar-style .navbar-nav {
     color: white;
 }
 
-.navbar-nav {
-    align-items: center;
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav .download-btn {
+        margin: 0;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
 }
 
 .download-btn {
     margin: 0 !important;
+    padding-top: 0;
+    padding-left: 0;
 }
