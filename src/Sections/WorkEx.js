@@ -1,9 +1,9 @@
 import React from 'react';
 import './sass.scss';
 import SingleWorkEx from './SingleWorkEx';
-import OrgzitPara from './OrgzitPara';
-import TCSPara from './TCSPara';
-import JSSPara from './JSSPara';
+import OrgzitPara from '../JourneyTexts/OrgzitPara';
+import TCSPara from '../JourneyTexts/TCSPara';
+import JSSPara from '../JourneyTexts/JSSPara';
 
 const WorkEx = props => {
     return (
