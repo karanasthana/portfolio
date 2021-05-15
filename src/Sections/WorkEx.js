@@ -3,6 +3,7 @@ import './sass.scss';
 import SingleWorkEx from './SingleWorkEx';
 import OrgzitPara from './OrgzitPara';
 import TCSPara from './TCSPara';
+import JSSPara from './JSSPara';
 
 const WorkEx = props => {
     return (
@@ -12,6 +13,17 @@ const WorkEx = props => {
                     <h2> ____Journey____ </h2>
                 </div>
             </div>
+            {
+                false &&
+                <SingleWorkEx
+                    companyName={'University Of Florida'}
+                    title={'Masters in Computer Science'}
+                    duration={'Fall 2021 - 2022'}
+                    imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
+                    location={'Gainesville, USA'}
+                    para={<JSSPara />}
+                />
+            }
             <SingleWorkEx
                 companyName={'Orgzit'}
                 title={'Frontend Tech Lead'}
@@ -34,7 +46,7 @@ const WorkEx = props => {
                 duration={'2013 - 2017'}
                 imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
                 location={'Noida, India'}
-                para={<TCSPara />}
+                para={<JSSPara />}
             />
         </>
     );
