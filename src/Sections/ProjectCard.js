@@ -5,7 +5,7 @@ import './sass.scss';
 export default function ProjectCard(props) {
     return (
         // <div className="col-12 col-sm-6 col-md-4 col-lg-3" style={{ padding: '20px' }}>
-        <Card className="cardContainer" onClick={() => alert("Hello from here")}>
+        <Card className="cardContainer" onClick={() => console.log('click')}>
             <div className="cardOuterDiv">
                 <Card.Img variant="top" src={`${props.image}`} className="cardImg" />
                 <Card.Body className="cardBody">
