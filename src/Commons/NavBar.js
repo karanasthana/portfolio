@@ -13,8 +13,8 @@ class NavBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="reverse-row-nav" >
                <Nav>
-                  <Nav.Link href="#projects">Projects</Nav.Link>
                   <Nav.Link href="#industry">Industry Experience</Nav.Link>
+                  <Nav.Link href="#projects">Projects</Nav.Link>
                   <Nav.Link href="#contact">Contact Me</Nav.Link>
                   <Nav.Link href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download>
                      <Button primary className="download-btn">Download Resume</Button>
