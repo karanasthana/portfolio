@@ -14,7 +14,7 @@ const WorkEx = props => {
                 </div>
             </div>
             {
-                false &&
+                true &&
                 <SingleWorkEx
                     companyName={'University Of Florida'}
                     title={'Masters in Computer Science'}
