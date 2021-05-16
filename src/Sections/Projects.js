@@ -30,15 +30,21 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className="all-projects">
-            <Masonry
-                breakpointCols={this.state.breakpointColumnsObj}
-                className="my-masonry-grid"
-                columnClassName="my-masonry-grid_column">
-                {this.state.projectsComponent}
-            </Masonry>
-                
+            <>
+            <div className="work-ex-header">
+                <div className="col-12">
+                    <h2> ____Personal Projects____ </h2>
+                </div>
             </div>
+            <div className="all-projects">
+                <Masonry
+                    breakpointCols={this.state.breakpointColumnsObj}
+                    className="my-masonry-grid"
+                    columnClassName="my-masonry-grid_column">
+                    {this.state.projectsComponent}
+                </Masonry>
+            </div>
+            </>
         )
     }
 }
