@@ -84,6 +84,16 @@
     text-align: center;
 }
 
+.reponsibilities {
+    padding-left: 20px;
+    list-style: none;
+
+    .features-list {
+        padding-left: 20px;
+        list-style-type: square;
+    }
+}
+
 .projects-section {
     margin-bottom: 50px;
 
@@ -97,6 +107,14 @@
             .company-img {
                 float: right;
                 height: 80px;
+            }
+
+            @media screen and (max-width: 992px) {
+                padding: 10px;
+
+                .company-img {
+                    float: none;
+                }
             }
         }
 
@@ -127,6 +145,10 @@
                         list-style-type: square;
                     }
                 }
+            }
+
+            @media screen and (max-width: 992px) {
+                padding: 20px;
             }
         }
     }
@@ -186,4 +208,11 @@
     .cardImg {
         height: 200px;
     }
+}
+
+.modal-header {
+    top: 0;
+    position: sticky;
+    background: white;
+    z-index: 2050;
 }
