@@ -7,7 +7,7 @@ import JSSPara from '../JourneyTexts/JSSPara';
 
 const WorkEx = props => {
     return (
-        <div className="work-experience">
+        <div className="grey-bg">
             <div className="work-ex-header">
                 <div className="col-12">
                     <h2> ____Journey____ </h2>
