@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import './NavBar.scss';
 import * as CONSTANTS from '../constants/constants';
 import { Button } from '../StyledComponents/Button';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class NavBar extends React.Component {
    render() {
