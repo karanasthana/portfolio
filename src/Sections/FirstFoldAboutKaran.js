@@ -7,7 +7,7 @@ import * as CONSTANTS from './../constants/constants';
 export default class FirstFoldAboutKaran extends React.Component {
     render() {
       return (
-         <div className="first-fold-section" style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover' }}>
+         <div className="first-fold-section home" style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover' }}>
                <div className="container">
                   <div className="row">
                      <div className="col-12 col-md-6 about-info">
