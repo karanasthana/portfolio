@@ -10,7 +10,7 @@ const WorkEx = props => {
         <div className="grey-bg work-ex" >
             <div className="work-ex-header">
                 <div className="col-12">
-                    <h2> ____Journey____ </h2>
+                    <h2> MY JOURNEY </h2>
                 </div>
             </div>
             {
