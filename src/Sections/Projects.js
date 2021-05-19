@@ -33,7 +33,7 @@ class Projects extends React.Component {
             <div className="projects">
                 <div className="work-ex-header">
                     <div className="col-12">
-                        <h2> ____Personal Projects____ </h2>
+                        <h2 className="section-heading"> PERSONAL PROJECTS </h2>
                     </div>
                 </div>
                 <div className="all-projects">
