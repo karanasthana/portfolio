@@ -32,7 +32,7 @@ class NavBar extends React.Component {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                        Industry Experience
+                        Journey
                      </Link>
                   </Nav.Link>
                   <Nav.Link href="#projects">
