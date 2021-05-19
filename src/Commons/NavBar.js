@@ -46,6 +46,17 @@ class NavBar extends React.Component {
                         Projects
                      </Link>
                   </Nav.Link>
+                  <Nav.Link href="#scores">
+                     <Link
+                        activeClass="active-link"
+                        to="scores"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                        Scores
+                     </Link>
+                  </Nav.Link>
                   <Nav.Link href="#contact">Contact Me</Nav.Link>
                   <Nav.Link href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download>
                      <Button primary className="download-btn">Download Resume</Button>
