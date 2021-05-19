@@ -14,6 +14,9 @@ const TCSPara = props => {
                 <li>Extract data for client requests using Unix commands and running Ab-Initio graphs</li>
             </ul>
         </div>
+        <div className="para">
+            Apart from these technical responsibilities, I also gained experience on how to work in a huge organisation. I was also given trainings on Business etiquettes, ways of working in a corporate organisation. Other things such as Ticket filing, logging information onto JIRA etc.
+        </div>
         </>
     );
 };
