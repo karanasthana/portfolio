@@ -1,7 +1,7 @@
 import React from 'react';
 import './sass.scss';
 
-export default class Scores extends React.Component {
+export default class Scores extends React.PureComponent {
     render() {
         return <div className="grey-bg scores score-section">
             <div className="work-ex-header">
