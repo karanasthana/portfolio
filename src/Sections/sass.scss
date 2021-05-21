@@ -229,3 +229,22 @@
     background: white;
     z-index: 2050;
 }
+
+.score-section {
+    padding: 40px 20px;
+
+    @media screen and (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .info-icon {
+        color: grey;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: none;
+            color: black;
+        }
+    }
+}
