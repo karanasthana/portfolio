@@ -20,9 +20,8 @@ class Projects extends React.Component {
                 />
         )
         const breakpointColumnsObj = {
-            default: 4,
-            1100: 3,
-            700: 2,
+            default: 3,
+            1024: 2,
             500: 1
         };
         this.setState({ projectsComponent: projectStructures, breakpointColumnsObj });
@@ -31,18 +30,20 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="projects">
-                <div className="work-ex-header">
-                    <div className="col-12">
-                        <h2 className="section-heading"> PERSONAL PROJECTS </h2>
+                <div className="container">
+                    <div className="work-ex-header">
+                        <div className="col-12">
+                            <h2 className="section-heading"> PERSONAL PROJECTS </h2>
+                        </div>
                     </div>
-                </div>
-                <div className="all-projects">
-                    <Masonry
-                        breakpointCols={this.state.breakpointColumnsObj}
-                        className="my-masonry-grid"
-                        columnClassName="my-masonry-grid_column">
-                        {this.state.projectsComponent}
-                    </Masonry>
+                    <div className="all-projects">
+                        <Masonry
+                            breakpointCols={this.state.breakpointColumnsObj}
+                            className="my-masonry-grid"
+                            columnClassName="my-masonry-grid_column">
+                            {this.state.projectsComponent}
+                        </Masonry>
+                    </div>
                 </div>
             </div>
         )
