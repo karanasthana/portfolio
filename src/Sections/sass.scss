@@ -1,3 +1,7 @@
+.font-small {
+    font-size: 0.7rem;
+}
+
 .first-fold-section {
     .about-info {
         display: flex;
@@ -245,6 +249,36 @@
         &:hover {
             opacity: none;
             color: black;
+        }
+    }
+}
+
+.project-details {
+    z-index: 2000 !important;
+    display: flex !important;
+    align-items: center;
+
+    .project-details-title {
+        background: #E7178B;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .project-details-body {
+        overflow: auto;
+        max-height: 80vh;
+    }
+
+    .travel-modal-img {
+        max-width: 60%;
+    }
+
+    .vaccine-modal-img-container {
+        display: flex;
+        justify-content: center;
+
+        .vaccine-modal-img {
+            max-width: 90%;
         }
     }
 }

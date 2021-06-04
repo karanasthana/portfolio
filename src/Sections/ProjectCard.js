@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import './sass.scss';
 import { Modal } from 'react-bootstrap';
-import { Button } from '../StyledComponents/Button';
 
 export default function ProjectCard(props) {
     const [showDialog, setShowDialog] = useState(false);
@@ -21,20 +20,15 @@ export default function ProjectCard(props) {
                     </Card.Body>
                 </div>
             </Card>
-            <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000' }} size="lg">
-                <Modal.Header closeButton className='modal-header'>
+            <Modal className="project-details" show={showDialog} onHide={handleClose} size={props.modalSize ? props.modalSize : 'xl'}>
+                <Modal.Header closeButton className='modal-header project-details-title'>
                     <Modal.Title>
                         {props.name}
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body className="project-details-body">
                     {props.detailUI}
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                </Modal.Footer>
             </Modal>
         </>
     );

@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import Masonry from 'react-masonry-css';
 import VaccineFinder from '../Projects/VaccineFinder';
+import TravelScrapbook from '../Projects/TravelScrapbook';
 
 class Projects extends React.Component {
     state = {
@@ -12,46 +13,53 @@ class Projects extends React.Component {
         const projectsList = 
             [{
                 name: "Covid Vaccine Slot Finder",
-                description: "Node JS bot that takes in a person's name and number along with their district id and keeps checking for vaccination slots' availability every minute. In case of availability, it sends the user a text message leveraging Twilio integration",
+                description: "Node JS bot to help notifying on availability of covid vaccine slots in India.",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/vaccine.jpeg",
                 link: "https://github.com/karanasthana/SlotScheduler",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'lg',
             }, {
                 name: "Travel Scrapbook",
                 description: "Personal Travel Scrapbook of the places I've been to, want to go to.",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/Screen+Shot+2021-05-16+at+5.50.17+PM.png",
                 link: "https://github.com/karanasthana/travel",
-                detailUI: <VaccineFinder />
+                detailUI: <TravelScrapbook />,
+                modalSize: 'lg',
             }, {
                 name: "JavaScript Prep",
                 description: "Online collection of resources for quickly revising Javascript, React, React Native and Redux related interview questions",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/js.jpeg",
                 link: "https://github.com/karanasthana/JavascriptPrep",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'xl',
             }, {
                 name: "Morse Code Website",
                 description: "Takes in an input and returns its morse code",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/morse-code.png",
                 link: "https://github.com/karanasthana/morse-code-website",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'xl',
             }, {
                 name: "Continuous Rail Theremometer (CRT)",
                 description: "A Raspberry Pi application that is being used by the Indian Railways to log and monitor rail track temperatures. It also works as a security device in cases of extreme temperature changes by shouting off alarms.",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/crt.jpeg",
                 link: "",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'xl',
             }, {
                 name: "Rail Data Preparation System (RDPS)",
                 description: "An android application integrated with a Tachometer and GPS sensor via a Raspberry Pi communicating between them via Bluetooth communication. The application is being used by the Indian Railways to map all features on and near the rail tracks digitally.",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/indian_rail.jpeg",
                 link: "",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'xl',
             }, {
                 name: "Oscillation Monitoring System (OMS)",
                 description: "An android application integrated with an Accelerometer sensor via a Raspberry Pi communicating between them via Bluetooth communication. The application is used to measure the quality of tracks on which the rail is running on. The device measured accelerations in the X and Z axes and greater the accelerations, the worse was the rail.",
                 image: "https://karanpersonal.s3.ap-south-1.amazonaws.com/indian_rail.jpeg",
                 link: "",
-                detailUI: <VaccineFinder />
+                detailUI: <VaccineFinder />,
+                modalSize: 'xl',
             }];
 
         const projectStructures = projectsList.map((item, key) => 
@@ -61,6 +69,7 @@ class Projects extends React.Component {
                 image={item.image}
                 link={item.link}
                 detailUI={item.detailUI}
+                modalSize={item.modalSize}
             />
         )
         const breakpointColumnsObj = {
