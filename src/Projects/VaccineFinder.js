@@ -13,7 +13,7 @@ export default function VaccineFinder(props) {
                 <li>Got the bot built and ready for use before the likes of Paytm came up with the features.</li>
             </ul>
             <div style={{ display: 'flex', justifyContent: 'center'}}>
-            <Image src={'https://techstory.in/wp-content/uploads/2021/05/9f1083df-a0f4-4a9f-b5ce-1da5785f943e.jpg'} className="text-center" style={{ maxWidth: '90%', textAlign: 'center' }} />
+                <Image src={'https://techstory.in/wp-content/uploads/2021/05/9f1083df-a0f4-4a9f-b5ce-1da5785f943e.jpg'} className="text-center" style={{ maxWidth: '90%', textAlign: 'center' }} />
             </div>
         </div>
     );

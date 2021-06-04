@@ -21,8 +21,8 @@ export default function ProjectCard(props) {
                     </Card.Body>
                 </div>
             </Card>
-            <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000' }} size="lg">
-                <Modal.Header closeButton className='modal-header'>
+            <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000', display: 'flex', alignItems: 'center' }} size="lg">
+                <Modal.Header closeButton className='modal-header' style={{ background: '#E7178B', color: 'white' }}>
                     <Modal.Title>
                         {props.name}
                     </Modal.Title>
@@ -30,11 +30,6 @@ export default function ProjectCard(props) {
                 <Modal.Body>
                     {props.detailUI}
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                </Modal.Footer>
             </Modal>
         </>
     );
