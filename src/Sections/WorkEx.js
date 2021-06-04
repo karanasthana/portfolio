@@ -4,6 +4,7 @@ import SingleWorkEx from './SingleWorkEx';
 import OrgzitPara from '../JourneyTexts/OrgzitPara';
 import TCSPara from '../JourneyTexts/TCSPara';
 import JSSPara from '../JourneyTexts/JSSPara';
+import * as CONSTANTS from '../constants/constants';
 
 const WorkEx = props => {
     return (
@@ -19,7 +20,7 @@ const WorkEx = props => {
                     companyName={'University Of Florida'}
                     title={'Masters in Computer Science'}
                     duration={'Fall 2021 - 2022'}
-                    imgUrl={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/University_of_Florida_logo.svg/1280px-University_of_Florida_logo.svg.png'}
+                    imgUrl={CONSTANTS.UFL_IMAGE_LINK}
                     location={'Gainesville, USA'}
                     para={<JSSPara />}
                 />
@@ -28,7 +29,7 @@ const WorkEx = props => {
                 companyName={'Orgzit'}
                 title={'Frontend Tech Lead'}
                 duration={'Feb 2018 - Present'}
-                imgUrl={'https://d3a93fg1wt2nf3.cloudfront.net/static/website/images/orgzit_logo.png'}
+                imgUrl={CONSTANTS.ORGZIT_IMAGE_LINK}
                 location={'New Delhi, India'}
                 para={<OrgzitPara />}
             />
@@ -36,7 +37,7 @@ const WorkEx = props => {
                 companyName={'Tata Consultancy Services'}
                 title={'Assistant System Engineer - Trainee'}
                 duration={'Aug 2017 - Feb 2018'}
-                imgUrl={'https://www.cdn.geeksforgeeks.org/wp-content/uploads/TATA_Consultancy_Services_Logo_blue.svg_.png'}
+                imgUrl={CONSTANTS.TCS_IMAGE_LINK}
                 location={'Noida, India'}
                 para={<TCSPara />}
             />
@@ -44,7 +45,7 @@ const WorkEx = props => {
                 companyName={'JSS Academy Of Technical Education'}
                 title={'BTech in Information Technology'}
                 duration={'2013 - 2017'}
-                imgUrl={'https://jssaten.ac.in/img/JSS_Logo.png'}
+                imgUrl={CONSTANTS.JSS_IMAGE_LINK}
                 location={'Noida, India'}
                 para={<JSSPara />}
             />

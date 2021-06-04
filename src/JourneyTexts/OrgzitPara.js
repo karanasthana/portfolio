@@ -5,6 +5,7 @@ import '../Sections/sass.scss';
 import { Modal } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import { Button } from '../StyledComponents/Button';
+import * as CONSTANTS from '../constants/constants';
 
 const OrgzitPara = props => {
     const [showDialog, setShowDialog] = useState(false);
@@ -20,7 +21,7 @@ const OrgzitPara = props => {
             <div className="para">
                 <p> Some of my notable responsibilities at Orgzit - </p>
                 <ul className="reponsibilities">
-                    <li style={{ marginBottom: '10px' }}>Individually developed the Product’s mobile app from scratch using React Native (live on <a href="https://apps.apple.com/gb/app/orgzit/id1504448187" target="_blank" rel="noreferrer">Apple App Store</a> and the <a href="https://play.google.com/store/apps/details?id=com.orgzit.android.pro&hl=en_IN&gl=US" target="_blank" rel="noreferrer">Google Play Store</a>) <br/> </li>
+                    <li style={{ marginBottom: '10px' }}>Individually developed the Product’s mobile app from scratch using React Native (live on <a href={CONSTANTS.APPLE_STORE_ORGZIT_LINK} target="_blank" rel="noreferrer">Apple App Store</a> and the <a href={CONSTANTS.GOOGLE_PLAYSTORE_ORGZIT_LINK} target="_blank" rel="noreferrer">Google Play Store</a>) <br/> </li>
                     <li style={{ marginBottom: '10px' }}>Solely handled webapp Frontend development, adding new features, inreasing product performance</li>
                     <li style={{ marginBottom: '10px' }}>Worked on the existing Android application built on Java, adding features like dynamic forms, websockets etc</li>
                     <a href="javascript:;" onClick={() => handleShow()}>Read More</a>
@@ -29,7 +30,7 @@ const OrgzitPara = props => {
             <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000' }} size="xl">
                 <Modal.Header closeButton className='modal-header'>
                     <Modal.Title>
-                        <Image src={'https://media-exp1.licdn.com/dms/image/C4D0BAQFXmjcLugUNsQ/company-logo_200_200/0/1519906878959?e=2159024400&v=beta&t=o7ayzYc-kbvEXZSlCF6e8UKficNlzVsXtd5omtk9ww8'} style={{ height: '30px', width: '30px', marginRight: '10px' }} />
+                        <Image src={CONSTANTS.ORGZIT_LOGO_IMAGE_LINK} style={{ height: '30px', width: '30px', marginRight: '10px' }} />
                         ORGZIT
                     </Modal.Title>
                 </Modal.Header>
@@ -40,7 +41,7 @@ const OrgzitPara = props => {
                     <div className="para">
                         <p> Professionally, I have donned many hats at Orgzit. Some of my notable responsibilities being - </p>
                         <ul className="reponsibilities">
-                            <li style={{ marginBottom: '4px' }}>Individually developed the Product’s <strong>Mobile Application</strong> from scratch using React Native (live on <a href="https://apps.apple.com/gb/app/orgzit/id1504448187" target="_blank" rel="noreferrer">Apple App Store</a> and the <a href="https://play.google.com/store/apps/details?id=com.orgzit.android.pro&hl=en_IN&gl=US" target="_blank" rel="noreferrer">Google Play Store</a>) <br/> </li>
+                            <li style={{ marginBottom: '4px' }}>Individually developed the Product’s <strong>Mobile Application</strong> from scratch using React Native (live on <a href={CONSTANTS.APPLE_STORE_ORGZIT_LINK} target="_blank" rel="noreferrer">Apple App Store</a> and the <a href={CONSTANTS.GOOGLE_PLAYSTORE_ORGZIT_LINK} target="_blank" rel="noreferrer">Google Play Store</a>) <br/> </li>
                             <li style={{ marginBottom: '15px' }}>
                                 <em>Some Important Features - </em>
                                 <ul className="features-list">
