@@ -204,6 +204,12 @@
     .cardContainer:hover .cardBody {
         background-color: #178be7;
         color: white;
+        z-index: 200;
+    }
+
+    .cardContainer:hover .cardImg {
+        transform: scale(1.15);
+        transition: 5s;
     }
     
     .cardContainer:hover .cardBody .cardTitle {
