@@ -12,8 +12,8 @@ export default function VaccineFinder(props) {
                 <li>Successfully helped atleast 10-15 acquaintances book their vaccine slots after they had been failing for a couple of weeks.</li>
                 <li>Got the bot built and ready for use before the likes of Paytm came up with the features.</li>
             </ul>
-            <div style={{ display: 'flex', justifyContent: 'center'}}>
-                <Image src={'https://techstory.in/wp-content/uploads/2021/05/9f1083df-a0f4-4a9f-b5ce-1da5785f943e.jpg'} className="text-center" style={{ maxWidth: '90%', textAlign: 'center' }} />
+            <div className="vaccine-modal-img-container">
+                <Image src={'https://techstory.in/wp-content/uploads/2021/05/9f1083df-a0f4-4a9f-b5ce-1da5785f943e.jpg'} className="text-center vaccine-modal-img"/>
             </div>
         </div>
     );
