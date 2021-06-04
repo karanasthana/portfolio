@@ -20,13 +20,13 @@ export default function ProjectCard(props) {
                     </Card.Body>
                 </div>
             </Card>
-            <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000', display: 'flex', alignItems: 'center' }} size="lg">
+            <Modal show={showDialog} onHide={handleClose} style={{ zIndex: '2000', display: 'flex', alignItems: 'center' }} size={props.modalSize ? props.modalSize : 'xl'}>
                 <Modal.Header closeButton className='modal-header' style={{ background: '#E7178B', color: 'white' }}>
                     <Modal.Title>
                         {props.name}
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body style={{ overflow: 'auto', maxHeight: '80vh' }}>
                     {props.detailUI}
                 </Modal.Body>
             </Modal>
