@@ -7,7 +7,7 @@ const SingleWorkEx = props => {
         <div className="projects-section">
             <div className="row one-work-ex">
                 <div className="col-12 col-md-4 company-img-container">
-                <Image className="company-img" src={props.imgUrl} />
+                    <Image className="company-img" src={props.imgUrl} />
                 </div>
                 <div className="col-12 col-md-6 company-details-container">
                     <div>
