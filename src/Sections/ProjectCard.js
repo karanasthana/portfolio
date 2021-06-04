@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import './sass.scss';
 import { Modal } from 'react-bootstrap';
-// import Image from 'react-bootstrap/Image';
 import { Button } from '../StyledComponents/Button';
 
 export default function ProjectCard(props) {
