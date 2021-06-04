@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import './sass.scss';
 import { Modal } from 'react-bootstrap';
-import { Button } from '../StyledComponents/Button';
 
 export default function ProjectCard(props) {
     const [showDialog, setShowDialog] = useState(false);
