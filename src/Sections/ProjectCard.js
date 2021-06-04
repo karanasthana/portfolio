@@ -22,7 +22,7 @@ export default function ProjectCard(props) {
             </Card>
             <Modal className="project-details" show={showDialog} onHide={handleClose} size={props.modalSize ? props.modalSize : 'xl'}>
                 <Modal.Header closeButton className='modal-header project-details-title'>
-                    <Modal.Title style={{ textTransform: 'uppercase' }}>
+                    <Modal.Title>
                         {props.name}
                     </Modal.Title>
                 </Modal.Header>
