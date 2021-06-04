@@ -14,6 +14,8 @@ export const RESUME_PDF_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.co
 // links Karan s3
 export const KARAN_IMG = 'https://travel-photos-react-website.s3.ap-south-1.amazonaws.com/IMG_8447-removebg-preview-removebg-preview.png';
 export const TRAVEL_WEBSITE_SS_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/travel.png';
+export const VACCINE_PROBLEM_IMG_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/vaccine-problem-img.jpeg';
+
 
 // links random
 export const YJHD_TRAVEL_BOOK_VIDEO = 'https://youtu.be/ShQg9Yz25ZA?t=88';

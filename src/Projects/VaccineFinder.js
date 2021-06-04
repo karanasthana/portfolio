@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
+import * as CONSTANTS from '../constants/constants';
 
 export default function VaccineFinder(props) {
     return (
@@ -13,7 +14,7 @@ export default function VaccineFinder(props) {
                 <li>Got the bot built and ready for use before the likes of Paytm came up with the features.</li>
             </ul>
             <div className="vaccine-modal-img-container">
-                <Image src={'https://techstory.in/wp-content/uploads/2021/05/9f1083df-a0f4-4a9f-b5ce-1da5785f943e.jpg'} className="text-center vaccine-modal-img"/>
+                <Image src={CONSTANTS.VACCINE_PROBLEM_IMG_LINK} className="text-center vaccine-modal-img"/>
             </div>
         </div>
     );
