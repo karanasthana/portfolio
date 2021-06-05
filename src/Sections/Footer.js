@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
             <div className="container">
                 <div className="pdf-row">
                     <Button primary>
-                        <a href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download style={{  }}>
+                        <a href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download>
                             PDF Resume
                         </a>
                     </Button>
