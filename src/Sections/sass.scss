@@ -57,18 +57,25 @@
 
     .footer-icons-row {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
 
         .copyright-container {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: flex-start;
             color: white;
+
+            .footer-img-karan {
+                max-height: 25vh;
+                width: auto;
+                max-width: 25vh;
+            }
         }
 
         .icons-container {
-            justify-content: center;
             margin-right: 0 !important;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
 
             a {
                 text-decoration: none;
@@ -78,6 +85,10 @@
 
                 &:hover {
                     color: black;
+                }
+
+                i {
+                    margin-right: 10px;
                 }
             }
         }
