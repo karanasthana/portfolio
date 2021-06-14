@@ -137,16 +137,27 @@
         .company-img-container {
             padding: 20px;
 
-            .company-img {
-                float: right;
-                height: 80px;
-            }
-
-            @media screen and (max-width: 992px) {
-                padding: 10px;
+            .company-img-div {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
 
                 .company-img {
-                    float: none;
+                    float: right;
+                    // height: 80px;
+                    float: right;
+                    max-height: 100px;
+                    max-width: 210px;
+                    width: auto;
+                    height: auto;
+                }
+
+                @media screen and (max-width: 992px) {
+                    padding: 10px;
+
+                    .company-img {
+                        float: none;
+                    }
                 }
             }
         }
