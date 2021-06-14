@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import Masonry from 'react-masonry-css';
 import VaccineFinder from '../Projects/VaccineFinder';
+import CRT from '../Projects/CRT';
 import TravelScrapbook from '../Projects/TravelScrapbook';
 import * as CONSTANTS from '../constants/constants';
 class Projects extends React.Component {
@@ -44,7 +45,7 @@ class Projects extends React.Component {
                 description: "A Raspberry Pi application that is being used by the Indian Railways to log and monitor rail track temperatures. It also works as a security device in cases of extreme temperature changes by shouting off alarms.",
                 image: CONSTANTS.CRT_PROJ_IMG_LINK,
                 link: "",
-                detailUI: <VaccineFinder />,
+                detailUI: <CRT />,
                 modalSize: 'xl',
             }, {
                 name: "Rail Data Preparation System (RDPS)",
