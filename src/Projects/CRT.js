@@ -1,19 +1,19 @@
 import React from 'react';
 
-export default function TravelScrapbook(props) {
+export default function CRT(props) {
     return (
         <div>
             <p>
                 <strong>Salient Features</strong>
             </p>
             <ul>
-                <li>More storage with 16 GB inbuilt Storage which can store data up to 5 years on per minute basis.</li>
-                <li>Having inbuilt internet Connectivity solution (Ethernet, Wi-Fi, Bluetooth) to transfer files.</li>
-                <li>Very Compaq, beautiful and very sleek design.</li>
-                <li>Record Temp at one minute Interval.</li>
-                <li>Real Time Temp Tracking (Live, Min-Max Temp With time ).</li>
-                <li>Customized selection of Time Interval for Recorded data Retrieval.</li>
-                <li>Customized Time and Date selection for Auto Start recording. </li>
+                <li>More storage with 16 GB inbuilt Storage which can store data up to 5 years on per minute basis</li>
+                <li>Having inbuilt internet Connectivity solution (Ethernet, Wi-Fi, Bluetooth) to transfer files</li>
+                <li>Very Compaq, beautiful and very sleek design</li>
+                <li>Record Temp at one minute Interval</li>
+                <li>Real Time Temp Tracking (Live, Min-Max Temp With time )</li>
+                <li>Customized selection of Time Interval for Recorded data Retrieval</li>
+                <li>Customized Time and Date selection for Auto Start recording </li>
             </ul>
 
             <p>

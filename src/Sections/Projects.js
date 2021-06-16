@@ -3,6 +3,7 @@ import ProjectCard from './ProjectCard';
 import Masonry from 'react-masonry-css';
 import VaccineFinder from '../Projects/VaccineFinder';
 import CRT from '../Projects/CRT';
+import OMS from '../Projects/OMS';
 import TravelScrapbook from '../Projects/TravelScrapbook';
 import * as CONSTANTS from '../constants/constants';
 class Projects extends React.Component {
@@ -59,7 +60,7 @@ class Projects extends React.Component {
                 description: "An android application integrated with an Accelerometer sensor via a Raspberry Pi communicating between them via Bluetooth communication. The application is used to measure the quality of tracks on which the rail is running on. The device measured accelerations in the X and Z axes and greater the accelerations, the worse was the rail.",
                 image: CONSTANTS.RAIL_PROJ_IMG_LINK,
                 link: "",
-                detailUI: <VaccineFinder />,
+                detailUI: <OMS />,
                 modalSize: 'xl',
             }];
 
