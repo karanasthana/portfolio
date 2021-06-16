@@ -4,7 +4,10 @@ import Masonry from 'react-masonry-css';
 import VaccineFinder from '../Projects/VaccineFinder';
 import CRT from '../Projects/CRT';
 import OMS from '../Projects/OMS';
+import RDPS from '../Projects/RDPS';
+import JavascriptPrep from '../Projects/JavascriptPrep';
 import TravelScrapbook from '../Projects/TravelScrapbook';
+import MorseCode from '../Projects/MorseCode';
 import * as CONSTANTS from '../constants/constants';
 class Projects extends React.Component {
     state = {
@@ -32,14 +35,14 @@ class Projects extends React.Component {
                 description: "Online collection of resources for quickly revising Javascript, React, React Native and Redux related interview questions",
                 image: CONSTANTS.JAVASCRIPTPREP_PROJ_IMG_LINK,
                 link: CONSTANTS.JAVASCRIPTPREP_GITHUB,
-                detailUI: <VaccineFinder />,
+                detailUI: <JavascriptPrep />,
                 modalSize: 'xl',
             }, {
                 name: "Morse Code Website",
                 description: "Takes in an input and returns its morse code",
                 image: CONSTANTS.MORSECODE_PROJ_IMG_LINK,
                 link: CONSTANTS.MORSECODE_GITHUB,
-                detailUI: <VaccineFinder />,
+                detailUI: <MorseCode />,
                 modalSize: 'xl',
             }, {
                 name: "Continuous Rail Theremometer (CRT)",
@@ -53,7 +56,7 @@ class Projects extends React.Component {
                 description: "An android application integrated with a Tachometer and GPS sensor via a Raspberry Pi communicating between them via Bluetooth communication. The application is being used by the Indian Railways to map all features on and near the rail tracks digitally.",
                 image: CONSTANTS.RAIL_PROJ_IMG_LINK,
                 link: "",
-                detailUI: <VaccineFinder />,
+                detailUI: <RDPS />,
                 modalSize: 'xl',
             }, {
                 name: "Oscillation Monitoring System (OMS)",
