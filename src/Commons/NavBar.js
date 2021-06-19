@@ -57,7 +57,7 @@ class NavBar extends React.Component {
                         Scores
                      </Link>
                   </Nav.Link>
-                  <Nav.Link href="#contact">Contact Me</Nav.Link>
+                  {/* <Nav.Link href="#contact">Contact Me</Nav.Link> */}
                   <Nav.Link href={CONSTANTS.RESUME_PDF_LINK} target="_blank" rel="noreferrer" download>
                      <Button primary className="download-btn">Download Resume</Button>
                   </Nav.Link>

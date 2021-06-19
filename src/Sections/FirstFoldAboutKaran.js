@@ -14,10 +14,10 @@ export default class FirstFoldAboutKaran extends React.Component {
       const typedTextSpan = document.querySelector(".typed-text");
       const cursorSpan = document.querySelector(".cursor");
 
-      const textArray = ["Frontend Developer", "Mobile Apps Developer", "Technical Lead", "Traveller"];
-      const typingDelay = 0;
-      const erasingDelay = 100;
-      const newTextDelay = 500; // Delay between current and next text
+      const textArray = ["Student", "Frontend Developer", "Mobile Applications Developer", "Freelancer", "Traveller"];
+      const typingDelay = 100;
+      const erasingDelay = 50;
+      const newTextDelay = 50; // Delay between current and next text
       let textArrayIndex = 0;
       let charIndex = 0;
 
@@ -58,7 +58,7 @@ export default class FirstFoldAboutKaran extends React.Component {
 
     render() {
       return (
-         <div className="first-fold-section home" style={{ background: 'linear-gradient(90deg, rgba(66, 89, 237, 0.3), transparent)' }}>
+         <div className="first-fold-section home">
             <div className="container">
                <div className="row">
                   <div className="col-12 col-md-6 about-info">
@@ -70,7 +70,7 @@ export default class FirstFoldAboutKaran extends React.Component {
                         <span className="cursor">&nbsp;</span>
                      </h3>
                   </div>
-                  <div className="col-12 col-md-6 img-container" data-aos='fade-left' data-aos-duration="500" style={{ opacity: '0.85', height: '100vh' }}>
+                  <div className="col-12 col-md-6 img-container" data-aos='fade-left' data-aos-duration="500">
                      <Image src={CONSTANTS.KARAN_IMG} fluid />
                   </div>
                </div>
