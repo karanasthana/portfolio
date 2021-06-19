@@ -6,15 +6,23 @@ export default function JavascriptPrep(props) {
     return (
         <div>
             <p>
-                Node JS bot that takes in a person's name and phone number along with their district id and keeps checking for vaccination slots' availability every minute.
-                In case of availability, it sends the user a text message leveraging Twilio integration.
+                Frontend Webapp built using React JS and JSON files acting as CMS.
+                The webapp aims at providing quick reading material right before interviews.
+                It is a culmination of interview experience at more than 30 companies for SDE1 and SDE2 roles.
             </p>
             <ul>
-                <li>Successfully helped atleast 10-15 acquaintances book their vaccine slots after they had been failing for a couple of weeks.</li>
-                <li>Got the bot built and ready for use before the likes of Paytm came up with the features.</li>
+                <li>4 different technical sections - 
+                    <ul>
+                        <li>Javascript</li>
+                        <li>React JS</li>
+                        <li>React Native</li>
+                        <li>Redux</li>
+                    </ul>
+                </li>
+                <li>Helped numerous acquaintances with quick revision material for their interviews</li>
             </ul>
             <div className="vaccine-modal-img-container">
-                <Image src={CONSTANTS.VACCINE_PROBLEM_IMG_LINK} className="text-center vaccine-modal-img"/>
+                <Image src={CONSTANTS.JAVASCRIPTPREP_IMG_LINK} className="text-center vaccine-modal-img"/>
             </div>
         </div>
     );
