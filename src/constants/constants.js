@@ -21,6 +21,7 @@ export const KARAN_IMG = 'https://travel-photos-react-website.s3.ap-south-1.amaz
 export const TRAVEL_WEBSITE_SS_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/travel.png';
 export const VACCINE_PROBLEM_IMG_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/vaccine-problem-img.jpeg';
 export const KARAN_DP_IMG_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/karan-dp.jpeg';
+export const JAVASCRIPTPREP_IMG_LINK = 'https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2018/10/history-of-front-end-frameworks-nocdn.jpg?fit=730%2C487&ssl=1';
 
 export const VACCINE_PROJ_IMG_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/vaccine.jpeg';
 export const TRAVEL_PROJ_IMG_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/Screen+Shot+2021-05-16+at+5.50.17+PM.png';
