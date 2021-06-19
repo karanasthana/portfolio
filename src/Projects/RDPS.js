@@ -7,13 +7,11 @@ export default function RDPS(props) {
                 <strong>Salient Features</strong>
             </p>
             <ul>
-                <li>More storage with 16 GB inbuilt Storage which can store data up to 5 years on per minute basis</li>
-                <li>Having inbuilt internet Connectivity solution (Ethernet, Wi-Fi, Bluetooth) to transfer files</li>
-                <li>Very Compaq, beautiful and very sleek design</li>
-                <li>Record Temp at one minute Interval</li>
-                <li>Real Time Temp Tracking (Live, Min-Max Temp With time )</li>
-                <li>Customized selection of Time Interval for Recorded data Retrieval</li>
-                <li>Customized Time and Date selection for Auto Start recording </li>
+                <li>Fast, easy & user friendly user interface.</li>
+                <li>160 GB of high speed internal memory.</li>
+                <li>Easy file generation and retrieval.</li>
+                <li>File compatible with TGMS format.</li>
+                <li>In device TMS LOGIN directly.</li>
             </ul>
 
             <p>
@@ -21,7 +19,11 @@ export default function RDPS(props) {
             </p>
 
             <p>
-                Continuous Rail Temperature Recorder is a versatile device specially designed for continuously displaying Rail Temperature, Storing Data, without a requirement of any external PC or Laptop to transfer the data to the rail Server, it can transfer data automatically when it has internet connectivity (on the device itself). The device is attached with an internal backup battery which enables the recorder to continuously record & display the data in case of power failure up to 72 hours. The Flash drive can record the data up to 5 years on per minute basis. The device comes with inbuilt USB port for data transfer and 3.5mm Port for communication with telemetry devices. It has a beautiful, compact and very sleek design. It has Special Safety alarms on MAX/MIN Crossover & Sensor Disconnection, making this device fully secure. The device has the feature of showing the Hourly Maximum/Minimum Temperature in real time. Device is also User Password protected. 
+                RDPS (Route Data (File) Preparation System) is a trolley mounted equipment for accurately measuring and recording ground features, location and their details along the railway track to prepare route data files digitally.
+                The RDPS has inbuilt file features which can be customised with user needs.
+                The device uses GPS (Global Positioning System) to record the location of track features with accurate latitude & longitude and uses digital optical encoder which connects with RDPS system wirelessly through Bluetooth connection and precisely records the kilometre driven by the RDPS system.
+                The device has both Slow & Fast mode to record in both the types of files format. With single touch on the screen in fast mode & double touch in slow mode to record the track features with location & kilometre.
+                It has 37 track features in fast mode & 100 track features in slow mode. It generate 7 types of file format which can be saved in internal memory of the device and can be retrieved on the device display, These file can be transferred to PC through USB port or can be mail from the device or can be saved in cloud storage.
             </p>
         </div>
     );
