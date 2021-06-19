@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import Background from '../assets/Pattern-Randomized.svg';
-// import Background from '../assets/Subtle-Stripes.svg';
-// import Background from '../assets/Page-Turner.svg';
+// import Background from '../assets/Pattern-Randomized.svg';
 import './sass.scss';
 import * as CONSTANTS from './../constants/constants';
 
