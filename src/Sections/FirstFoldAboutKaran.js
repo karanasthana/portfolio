@@ -70,7 +70,7 @@ export default class FirstFoldAboutKaran extends React.Component {
                         <span className="cursor">&nbsp;</span>
                      </h3>
                   </div>
-                  <div className="col-12 col-md-6 img-container" data-aos='fade-left' data-aos-duration="500">
+                  <div className="col-12 col-md-6 img-container">
                      <Image src={CONSTANTS.KARAN_IMG} fluid />
                   </div>
                </div>
