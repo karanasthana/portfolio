@@ -14,17 +14,14 @@ const WorkEx = props => {
                     <h2 className="section-heading"> JOURNEY </h2>
                 </div>
             </div>
-            {
-                false &&
-                <SingleWorkEx
-                    companyName={'University Of Florida'}
-                    title={'Masters in Computer Science'}
-                    duration={'Fall 2021 - 2022'}
-                    imgUrl={CONSTANTS.UFL_IMAGE_LINK}
-                    location={'Gainesville, USA'}
-                    para={<JSSPara />}
-                />
-            }
+            <SingleWorkEx
+                companyName={'University Of Florida'}
+                title={'Masters in Computer Science'}
+                duration={'Fall 2021 - 2022'}
+                imgUrl={CONSTANTS.UFL_IMAGE_LINK}
+                location={'Gainesville, USA'}
+                // para={<JSSPara />}
+            />
             <SingleWorkEx
                 companyName={'Orgzit'}
                 title={'Frontend Tech Lead'}
@@ -47,7 +44,7 @@ const WorkEx = props => {
                 duration={'2013 - 2017'}
                 imgUrl={CONSTANTS.JSS_IMAGE_LINK}
                 location={'Noida, India'}
-                para={<JSSPara />}
+                // para={<JSSPara />}
             />
         </div>
     );
