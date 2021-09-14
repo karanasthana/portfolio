@@ -15,7 +15,7 @@ export const MORSECODE_GITHUB = "https://github.com/karanasthana/morse-code-webs
 
 
 // links Karan s3
-export const RESUME_PDF_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/Karan+Asthana+Resume+-+Frontend+Developer+-+React+Native+.pdf';
+export const RESUME_PDF_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/Karan+Asthana+Resume.pdf';
 
 export const KARAN_IMG = 'https://travel-photos-react-website.s3.ap-south-1.amazonaws.com/IMG_8447-removebg-preview-removebg-preview.png';
 export const TRAVEL_WEBSITE_SS_LINK = 'https://karanpersonal.s3.ap-south-1.amazonaws.com/travel.png';
