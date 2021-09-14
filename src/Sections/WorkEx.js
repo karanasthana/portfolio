@@ -3,7 +3,7 @@ import './sass.scss';
 import SingleWorkEx from './SingleWorkEx';
 import OrgzitPara from '../JourneyTexts/OrgzitPara';
 import TCSPara from '../JourneyTexts/TCSPara';
-import JSSPara from '../JourneyTexts/JSSPara';
+// import JSSPara from '../JourneyTexts/JSSPara';
 import * as CONSTANTS from '../constants/constants';
 
 const WorkEx = props => {
@@ -19,7 +19,7 @@ const WorkEx = props => {
                 title={'Masters in Computer Science'}
                 duration={'Fall 2021 - 2022'}
                 imgUrl={CONSTANTS.UFL_IMAGE_LINK}
-                location={'Gainesville, USA'}
+                location={'Gainesville, Florida, USA'}
                 // para={<JSSPara />}
             />
             <SingleWorkEx
